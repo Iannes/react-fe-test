@@ -4,6 +4,8 @@ The data of this project is fetched using the [Punk API](https://punkapi.com/doc
 
 ### Folder Structure
 
+I took the liberty of changing the initial folder structure. The tree can be found below.
+
 ```shell
 ├── src/
   ├── Api/
