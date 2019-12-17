@@ -1,0 +1,39 @@
+$width: 200px;
+$height: 300px;
+$beerBackground: white;
+
+.beer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: $height;
+  width: $width;
+  margin: 20px;
+  transform: scale(0);
+  background: beerBackground;
+  border-radius: 10px;
+  box-shadow: 0px -1px 4px 4px rgba(204, 200, 204, 0.32);
+  color: black;
+  opacity: 0;
+  animation: welcomeBeer 0.5s 0.2s forwards ease-out;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+
+  p {
+    font-size: 14px;
+    line-height: 1.2rem;
+    color: #666;
+  }
+
+  img {
+    height: 40%;
+  }
+}
+
+@keyframes welcomeBeer {
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

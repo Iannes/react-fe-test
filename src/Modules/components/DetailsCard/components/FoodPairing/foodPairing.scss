@@ -1,0 +1,19 @@
+@import '../../../../core//variables.scss';
+
+.list {
+
+  &-container {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  &-item {
+    border: 2px solid $borderColor;
+    border-radius: 6px;
+    padding: 13px 20px;
+    font-size: 14px;
+    color: $primary;
+    background-color: white;
+    margin: 14px auto;
+  }
+}

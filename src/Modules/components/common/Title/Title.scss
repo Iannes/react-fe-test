@@ -1,0 +1,18 @@
+.detailsPage {
+
+  &-title {
+    font-weight: 300;
+    font-size: 52px;
+    line-height: 52px;
+    color: #43484D;
+    letter-spacing: -2px;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+
+    @media screen and(max-width: 600px) {
+      font-size: 25px;
+      line-height: 32px;
+      text-align: center;
+    }
+  }
+}

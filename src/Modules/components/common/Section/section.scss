@@ -1,0 +1,14 @@
+@import '../../../core//variables.scss';
+
+.detailsPage-section {
+
+  &__subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: $secondary;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+}

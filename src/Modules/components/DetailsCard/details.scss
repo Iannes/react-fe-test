@@ -1,0 +1,16 @@
+@import '../../core//variables.scss';
+
+.detailsPage {
+
+  &-container {
+    display: flex;
+    max-width: 1200px;
+    margin: $margin auto;
+    align-items: center;
+
+    @media screen and (max-width: 600px) {
+      margin-top: 65px;
+      display: block;
+    }
+  }
+}

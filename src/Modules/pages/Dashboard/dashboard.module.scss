@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 150px;
+
+  @media screen and (max-width: 600px) {
+    padding: 100px 0;
+  }
+
+  .beers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .endOfScroll {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    background: #f1ecec;
+    padding: 20px;
+  }
+
+  .hide {
+    display: none;
+  }
+}

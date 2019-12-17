@@ -42,7 +42,7 @@ This detail page should show at least the information of:
 - Description
 - First Brewed
 - Image
-- Foods that pair with that beer
+- Foods that pair with that beer  
 - Abv and Ibu
 - Contributor/s
 

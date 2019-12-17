@@ -1,0 +1,29 @@
+@import "../../../../core/variables.scss";
+
+.detailsPage-section {
+  &.calculation {
+    border-bottom: 1px solid $borderColor;
+    margin-bottom: 20px;
+  }
+
+  .calculation {
+    color: $highlight;
+    margin-right: 50px;
+
+    @media screen and (max-width: 600px) {
+      margin: auto;
+      text-align: center;
+    }
+
+    &-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+
+      @media screen and(max-width: 600px) {
+        flex-direction: column;
+      }
+    }
+  }
+}

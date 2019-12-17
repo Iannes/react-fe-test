@@ -1,0 +1,35 @@
+@import '../../../../core//variables.scss';
+
+.beerDetails {
+
+  &-abv {
+    display: flex;
+    margin: 10px auto 0 0;
+    justify-content: space-between;
+    color: inherit;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+
+  .list {
+
+    &-container {
+      font-size: 20px;
+      line-height: 25px;
+    }
+
+    &-item {
+      border: 2px solid $borderColor;
+      border-radius: 6px;
+      padding: 13px 20px;
+      font-size: 14px;
+      color: $primary;
+      background-color: white;
+
+      &--beer {
+        margin: 20px;
+      }
+    }
+  }
+
+}

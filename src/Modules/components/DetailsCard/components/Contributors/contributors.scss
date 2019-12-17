@@ -1,0 +1,13 @@
+@import '../../../../core/variables.scss';
+
+.detailsPage-section {
+
+  &.contributors {
+    // border-bottom: 1px solid $borderColor;
+    margin: 25px 0;
+  }
+
+  .contributors-name {
+    color: $highlight;
+  }
+}
