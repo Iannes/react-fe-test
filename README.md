@@ -48,7 +48,7 @@ This detail page should show at least the information of:
 
 It also has to show the difference between Original Gravity and Final gravity
 
-##### Requirements
+#### Requirements
 
 - When you click on an item on the list, you’ll be sent to a new page with the
   details specified above.
