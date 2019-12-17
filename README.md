@@ -62,6 +62,7 @@ It also has to show the difference between Original Gravity and Final gravity
 - I was planning to change the design of the Dashboard, but wasn't sure if that was necessary so decided not to do radical changes.  
 Instead, I simply changed the colours and I've added a top App Bar.
 - Since this is a small app, I decided to make use of the Context API with only one reducer, instead of using Redux.
+- As the project was already setup to use `scss`, I decided to keep using that and didn't make any use of `JSS`.
 
 ### Dispatch and State
 
@@ -74,5 +75,5 @@ const GlobalDispatchContext = React.createContext(undefined);
 
   ### Improvements / Todos
 
-  - When a request gets an error for the details page, even though the error is dispatched, the user sees an empty page. Instead the user should see a friendly message letting them know what happened.
+  - When a request returns an error in the details page, even though the error is dispatched in the reducer, an error message is not shown. Instead the user should see a friendly message letting them know what happened.
   
