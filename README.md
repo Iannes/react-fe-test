@@ -1,3 +1,6 @@
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d903e743-ade9-4ee9-8441-41a35205e871/deploy-status)](https://app.netlify.com/sites/yannis-spyrou-test/deploys)
+
 # Public Api
 
 The data of this project is fetched using the [Punk API](https://punkapi.com/documentation/v2)
