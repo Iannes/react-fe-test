@@ -1,6 +1,5 @@
 import React from 'react';
 import { Details } from 'Types';
-import './image.scss'
 
 const ImageContainer: React.FC<Details> = ({ details }) => {
 
